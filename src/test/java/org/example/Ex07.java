@@ -18,6 +18,7 @@ String[] arr= {"A","B","C","D","E","F","G"};
         ArrayList<String> as= new ArrayList<String>(Arrays.asList(arr));
         ArrayList<String> ds= (ArrayList<String>) as.clone();
 
+
         as.add(as.size(),"NOW I KNOW MY ABCs");
         System.out.println(as);
         as.add(0,"123456");
