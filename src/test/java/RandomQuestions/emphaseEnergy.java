@@ -14,8 +14,8 @@ public class emphaseEnergy {
     {
         System.out.println("yes");
         emphaseEnergy x= new emphaseEnergy();
-        x.stringfunc();
-      //  x.Replace0with5();
+       // x.stringfunc();
+       x.Replace0with5();
     }
 
     public void Replace0with5()

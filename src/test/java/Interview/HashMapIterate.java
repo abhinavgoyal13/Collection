@@ -66,7 +66,16 @@ public class HashMapIterate {
             // mp.getValue();
         }
     }
+    public void iterateLinkedhashmapMethod4()
+    {
+       linkhmap.forEach((key,value) -> System.out.println(key + " " + value));
+      // linkhmap.forEach((key,value) -> System.out.println(key + "" + value));
+      //  linkhmap.forEach((key,value) ->System.out.println(key + " " + value));
+    //    hmap.forEach((key,value) ->System.out.println(key + value));
 
+        //hmap.forEach((key,value) -> System.out.println(key + value));
+
+    }
 
     //hashtable
     public void pincoderegisterHashtablee(PinCodeUserInfo pinCodeUserInfo)
@@ -120,6 +129,14 @@ public class HashMapIterate {
            // mp.getValue();
         }
     }
+    public void iterateHashTableMethod4()
+    {
+      for(Map.Entry<String,PinCodeUserInfo> en :htab.entrySet())
+      {
+          System.out.println(en.getKey() + " " + en.getValue());
+      }
+    }
+
 // hashmap
     public void pinCodeRegister(PinCodeUserInfo pinCodeUserInfo) {
         hmap.put(pinCodeUserInfo.getPinCode(), pinCodeUserInfo);
@@ -383,6 +400,7 @@ public class HashMapIterate {
         hashMapIterate.iterateHashTableMethod1();
         hashMapIterate.iterateHashTableMethod2();
         hashMapIterate.iterateHashTableMethod3();
+        hashMapIterate.iterateHashTableMethod4();
 //linkedhashmap
         hashMapIterate.pincoderegisterLinkedhashmap(doi);
         hashMapIterate.pincoderegisterLinkedhashmap(doi1);
@@ -391,6 +409,7 @@ public class HashMapIterate {
         hashMapIterate.iterateLinkedhashmapMethod1();
         hashMapIterate.iterateLinkedhashmapMethod2();
         hashMapIterate.iterateLinkedhashmapMethod3();
+        hashMapIterate.iterateLinkedhashmapMethod4();
 
 
     }

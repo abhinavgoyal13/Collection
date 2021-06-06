@@ -5,7 +5,7 @@ package Interview;
 import java.util.*;
         import java.lang.*;
 
-public class GFG {
+public class HashMapSortingBasedOnValues {
 
     // function to sort hashmap by values
     public static HashMap<String, Integer> sortByValue(HashMap<String, Integer> hm)
