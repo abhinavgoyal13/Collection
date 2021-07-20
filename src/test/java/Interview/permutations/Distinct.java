@@ -19,7 +19,7 @@ public class Distinct {
         // stores false by default and make true
         // at the position which alphabet is being
         // used
-        boolean alpha[] = new boolean[26];
+        boolean[] alpha= new boolean[26];
 
         for (int i = 0; i < str.length(); i++) {
 
