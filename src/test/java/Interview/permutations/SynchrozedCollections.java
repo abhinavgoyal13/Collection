@@ -10,5 +10,6 @@ public class SynchrozedCollections {
         //List<Object> syncList = Collections.synchronizedList(new ArrayList<>());
         List<Object> ls= Collections.synchronizedList(new ArrayList<>());
 
+
     }
 }

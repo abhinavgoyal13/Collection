@@ -8,9 +8,7 @@ public class NagarroQuestion {
     public static void main(String[] args)
     {
         String str="abc d 1234567890pqr 54897";
-        //String nums = str.replaceAll("[^0-9 ]", "").replaceAll(" +", " ").trim();
-       // System.out.println(nums);
-        String[] s1= str.replaceAll("[^0-9 ]", "").trim().split(" ");
+           String[] s1= str.replaceAll("[^0-9 ]", "").trim().split(" ");
         int sum =0;
         for(String s:s1)
         {

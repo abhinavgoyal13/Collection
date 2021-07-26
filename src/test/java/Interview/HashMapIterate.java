@@ -73,7 +73,9 @@ public class HashMapIterate {
       //  linkhmap.forEach((key,value) ->System.out.println(key + " " + value));
     //    hmap.forEach((key,value) ->System.out.println(key + value));
 
-        //hmap.forEach((key,value) -> System.out.println(key + value));
+        //hmap.linkhmap.forforEach((key,value) -> System.out.println(key + value));
+
+
 
     }
 
